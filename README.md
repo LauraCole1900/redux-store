@@ -65,7 +65,7 @@ $ npm start
 
 ## Usage
 
-This project is intended to be used to find books using Google's API.
+This project is intended to demo an e-commerce application that uses Redux and Stripe.
 
 ## Technologies Used
 
