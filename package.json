@@ -1,0 +1,28 @@
+{
+  "name": "redux-store",
+  "version": "1.0.0",
+  "description": "MERNG app using Redux and Stripe for e-commerce applications",
+  "author": "Laura E. Cole",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraCole1900/redux-store.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LauraCole1900/redux-store/issues"
+  },
+  "homepage": "https://github.com/LauraCole1900/redux-store#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "graphql-config": "^4.1.0"
+  }
+}
